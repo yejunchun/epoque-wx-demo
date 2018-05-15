@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "views/login/login",
+    "views/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "epoque-店员管理",
+    "navigationBarTextStyle": "black"
+  }
+}

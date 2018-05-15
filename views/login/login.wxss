@@ -1,0 +1,16 @@
+/* pages/login/login.wxss */
+.logo{
+  width: 276px;
+  height: 63px;
+}
+
+.code{
+  display: block;
+  position: absolute;
+  top: 0px;
+  border-radius: 5px;
+  background: #919294;
+  padding: 3px 10px;
+  z-index: 100;
+  right: 0;
+}
