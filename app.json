@@ -1,7 +1,7 @@
 {
   "pages": [
-    "views/login/login",
-    "views/index/index"
+    "views/index/index",
+    "views/login/login"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -1,5 +1,30 @@
 <!--index.wxml-->
 <view class="container">
-  111
-    
+  <view class='head'>
+    <view class='head-con-top row'>
+      <view class='headimg'>
+        <image src='../../resources/headimg.jpg'/>
+      </view>
+      <view>
+        <view class='row'>
+          <icon class='iconfont icon-yijianfankui size16'>
+            <text class='mleft10 size14'>{{name}}</text>
+          </icon>
+          <icon class='iconfont icon-mobilephone_fill size18'>
+            <text class='mleft10 size14'>{{phone}}</text>
+          </icon>
+        </view>
+        <icon class='iconfont icon-weizhi size16'>
+          <text class='mleft10 size14'>{{shopCode}} {{shopAddress}}</text>
+        </icon>
+      </view>
+    </view>
+    <view>
+      <view>累计提成总金额</view>
+      <view>累计成交订单</view>
+    </view>
+  </view>
+  <view class='content'>
+
+  </view>
 </view>

@@ -1,9 +1,18 @@
+@import './resources/icon01.wxss';
+
 .container{
   width: 100%;
   height: 100%;
   position: absolute;
 }
-
+.row{
+  display: flex;
+  flex-direction: row;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+}
 .center-column{
   display: flex;
   justify-content: center;
@@ -38,4 +47,7 @@
 }
 .border-buttom{
   border-bottom: 1px solid #999;
+}
+.border-buttom:hover{
+  border-bottom: 1px solid blue;
 }
