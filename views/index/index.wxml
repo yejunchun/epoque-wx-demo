@@ -7,24 +7,57 @@
       </view>
       <view>
         <view class='row'>
-          <icon class='iconfont icon-yijianfankui size16'>
+          <icon class='iconfont icon-geren13 size18'>
             <text class='mleft10 size14'>{{name}}</text>
           </icon>
-          <icon class='iconfont icon-mobilephone_fill size18'>
+          <icon class='iconfont icon-kehufuwu size18'>
             <text class='mleft10 size14'>{{phone}}</text>
           </icon>
         </view>
-        <icon class='iconfont icon-weizhi size16'>
+        <icon class='iconfont icon-map size18'>
           <text class='mleft10 size14'>{{shopCode}} {{shopAddress}}</text>
         </icon>
       </view>
     </view>
-    <view>
-      <view>累计提成总金额</view>
-      <view>累计成交订单</view>
+    <view class='center-row'>
+      <view class='member-order row'>
+        <icon class='iconfont icon-icon3 size18'/>
+        <view class='column size14 mtop5' style='margin-left:5px;'>
+          <text class='size18 pright10'>0</text>
+          <text class='size12'>累计提成总金额</text>
+        </view>
+      </view>
+      <view class='member-order row'>
+        <icon class='iconfont icon-single size18'/>
+        <view class='column mtop5' style='margin-left:5px;'>
+          <text class='size18 pright10'>0</text>
+          <text class='size12'>累计成交订单</text>
+        </view>
+      </view>
     </view>
   </view>
-  <view class='content'>
-
+  <view class='grid'>
+    <view class='menu'>
+      <icon class='iconfont icon-youhuiquan size32'><text class='size16'>送券</text></icon>
+    </view>
+    <view class='menu'>
+      <icon class='iconfont icon-yejiguanli size32'><text class='size16'>业绩</text></icon>
+    </view>
+     <view class='menu'>
+      <icon class='iconfont icon-kehuguanli size32'><text class='size16'>客户</text></icon>
+    </view>
+     <view class='menu'>
+      <icon class='iconfont icon-ai-article size32'>
+        <text class='size16'>知识库</text>
+      </icon>
+    </view>
+    <view class='menu'>
+      <icon class='iconfont icon-shezhi size32'>
+        <text class='size16'>设置</text>
+      </icon>
+    </view>
+    <view class='menu menu-x'>
+      敬请期待
+    </view>
   </view>
 </view>

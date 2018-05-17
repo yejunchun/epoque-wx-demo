@@ -1,4 +1,4 @@
-@import './resources/icon01.wxss';
+@import './resources/icon.wxss';
 
 .container{
   width: 100%;
@@ -12,6 +12,12 @@
 .column{
   display: flex;
   flex-direction: column;
+}
+.center-row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
 .center-column{
   display: flex;

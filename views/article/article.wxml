@@ -1,0 +1,17 @@
+<view class='container'>
+  <view>
+     搜索
+  </view>
+  <view class='article-scroll'>
+    <view class='article-big-image' wx:for="{{[1,2,3,4,5,6,7,8]}}">
+      <image src='http://bossdev.epoque.cn/resource_/image/9805baf863101d903243362ff225a206-1526541502.png'/>
+      <view class='article-brief'>
+        <text>标题</text>
+        <view class='row'>
+          <text>类型</text>
+          <text>2018-05-17 15:18</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,5 +1,6 @@
 {
   "pages": [
+    "views/article/article",
     "views/index/index",
     "views/login/login"
   ],
