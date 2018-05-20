@@ -2,10 +2,10 @@
   <image class='logo' src="{{logoLoginSrc}}"></image>
   <view class='item-group' style='width:90%;'>
     <view class='label border-buttom'>
-      <input placeholder="请输入手机号" auto-focus/>
+      <input placeholder="请输入手机号"/>
     </view>
     <view class='label border-buttom'>
-      <input placeholder="请输入验证码" auto-focus/>
+      <input placeholder="请输入验证码"/>
       <text class='code'>获取验证码</text>
     </view>
     <button class='btn' bindtap='login'>注册/登录</button>

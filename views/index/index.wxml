@@ -37,25 +37,25 @@
     </view>
   </view>
   <view class='grid'>
-    <view class='menu'>
+    <navigator class='menu'>
       <icon class='iconfont icon-youhuiquan size32'><text class='size16'>送券</text></icon>
-    </view>
-    <view class='menu'>
+    </navigator>
+    <navigator class='menu'>
       <icon class='iconfont icon-yejiguanli size32'><text class='size16'>业绩</text></icon>
-    </view>
-     <view class='menu'>
+    </navigator>
+     <navigator class='menu'>
       <icon class='iconfont icon-kehuguanli size32'><text class='size16'>客户</text></icon>
-    </view>
-     <view class='menu'>
+    </navigator>
+    <navigator class='menu' url="/views/article/article">
       <icon class='iconfont icon-ai-article size32'>
         <text class='size16'>知识库</text>
       </icon>
-    </view>
-    <view class='menu'>
-      <icon class='iconfont icon-shezhi size32'>
-        <text class='size16'>设置</text>
-      </icon>
-    </view>
+    </navigator>
+    <navigator class='menu' url="/views/setup/index">
+        <icon class='iconfont icon-shezhi size32'>
+          <text class='size16'>设置</text>
+        </icon>
+    </navigator>
     <view class='menu menu-x'>
       敬请期待
     </view>

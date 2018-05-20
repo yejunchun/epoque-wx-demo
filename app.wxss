@@ -57,3 +57,39 @@
 .border-buttom:hover{
   border-bottom: 1px solid blue;
 }
+
+
+.size20{
+  font-size: 20px;
+}
+.size18{
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.size16{
+  font-size: 16px;
+}
+
+.size14{
+  color: #fff;
+  font-size: 14px;
+}
+.size12{
+  color: #fff;
+  font-size: 12px;
+}
+.size28{
+  color: #4789ed;
+  font-size: 28px;
+}
+.size32{
+  color: #4789ed;
+  font-size: 32px;
+}
+
+.size20{
+  color: #4789ed;
+  font-size: 20px;
+}

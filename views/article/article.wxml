@@ -1,17 +1,32 @@
-<view class='container'>
-  <view>
-     搜索
+<view class='content'>
+  <view class='search'>
+    <icon class='iconfont icon-gonggeshitu' bindtap="clickNav" />
+    <input placeholder="搜索标题或者内容"/>
+  </view>
+  <view class='nav' wx:if="{{nav}}" >
+    <view class='pop' animation="{{animationData}}">
+      <text>全部(100)</text>
+      <text>日常操作(30)</text>
+      <text>新的分类(3)</text>
+      <text>新的分类(3)</text>
+      <text>新的分类(3)</text>
+      <text>新的分类(3)</text>
+      <text>新的分类(3)</text>
+    </view>
+    <view class='pop-bak' animation="{{animationOpacity}}" bindtap="clickNav"></view>
   </view>
   <view class='article-scroll'>
-    <view class='article-big-image' wx:for="{{[1,2,3,4,5,6,7,8]}}">
+    <scroll-view class='scroll-view' scroll-y>
+    <view class='article-big-image' wx:key="index" wx:for="{{[1,2,3,4,5,6,7,8]}}">
       <image src='http://bossdev.epoque.cn/resource_/image/9805baf863101d903243362ff225a206-1526541502.png'/>
       <view class='article-brief'>
-        <text>标题</text>
-        <view class='row'>
-          <text>类型</text>
-          <text>2018-05-17 15:18</text>
+        <text class='title'>标题</text>
+        <view class='grid-row'>
+          <text class='type'>类型</text>
+          <text class='time'>2018-05-17 15:18</text>
         </view>
       </view>
     </view>
+    </scroll-view>
   </view>
 </view>
